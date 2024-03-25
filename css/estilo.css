@@ -1,0 +1,156 @@
+.azul{
+    border: 1px dashed #6658e4; 
+}
+
+.roja{
+    border: 1px dashed #e45858; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#contenedor{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.columna{
+    float: left;
+}
+
+body{
+    background: #fff6;
+}
+
+#reset{
+    display: block;
+    clear: both;
+}
+
+#htitulo{
+    width: 39%;
+    text-align: center;
+}
+
+#htitulo h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 55px;
+}
+
+#navega{
+    width: 60%;
+    text-align: center;
+}
+
+#navega ul{
+padding: 0;
+margin: 0;
+}
+
+#navega li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+#personal{
+    width: 70%;
+    font-size: 14px;
+}
+
+#ficha{
+    width: 70%;
+    height: 300px;
+}
+
+#social{
+    width: 29%;
+    height: 300px;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+    border: 2px solid rgb(164, 164, 164);
+    background: white;
+}
+
+#fototxt{
+    width: 60%;
+}
+
+#ficha{
+    background: #af9383;
+}
+#creditos{
+    background: rgba(74, 172, 236, 50%)
+}
+
+#confoto{
+    width: 40%;
+    text-align: center;
+}
+
+#headerContain{
+    color: aliceblue;
+    background: #307967;
+}
+
+.twitter{
+    box-shadow: 0px 1px 0px 0px #000000;
+    background: linear-gradient(to button, #000000, #313131 );
+    background-color: #3d3d3d;
+    border-radius: 6px;
+    border: 1px solid #494949;
+    display: inline-block;
+    cursor: pointer;
+    color: #dfdfdf;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.twitter:hover{
+    background: linear-gradient(to bottom, #131313, #2b2b2b 100%);
+}
+.twitter:active{
+    position: relative;
+    top: 1px;
+}
+
+.facebook{
+    box-shadow: 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to button, #3d94f6, #1e62d0 );
+    background-color: #3d94f6;
+    border-radius: 6px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+}
+
+.facebook:hover{
+    background: linear-gradient(to button, #1e62d0, #3d94f6 100%);
+    background-color: #1e62d0;
+}
+.facebook:active{
+    position: relative;
+    top: 1px;
+}
+
+.socialButton{
+    width: 130px;
+    margin: 5px;
+}
